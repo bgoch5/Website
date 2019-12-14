@@ -1,5 +1,0 @@
----
-title: "Biostatistics and Data Analytics"
----
-
-Welcome to my website!

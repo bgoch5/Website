@@ -1,7 +1,0 @@
----
-title: "About me"
----
-
-I am a third-year student at the University of Oklahoma (OU) pursuing the BS Mathematics/MS Biostatistics dual-degree program. Additionally, I am pursuing minors in medical humanities and Spanish. My undergraduate research experience thus far spans health data science, mental health, math education, and ornithology. I am especially interested in using R, Python, and other open-source statistical software packages and programming languages to create insights from large and disparate data sources.
-
-Please browse this website for examples of past projects, and feel free to contact me using any of the links above if you'd like to get in touch!
