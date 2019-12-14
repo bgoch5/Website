@@ -15,7 +15,7 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -105,33 +105,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 61px;
+  padding-top: 51px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h2 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h3 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h4 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h5 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h6 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .dropdown-submenu {
   position: relative;
@@ -299,19 +299,58 @@ $(document).ready(function () {
     About
   </a>
 </li>
-<li>
-  <a href="resume.html">
-    <span class="fa fa-file-pdf-o"></span>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-line-chart"></span>
      
-    Resume/CV
+    Experience
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="publications.html">
+        <span class="fa fa-book"></span>
+         
+        Publications
+      </a>
+    </li>
+    <li>
+      <a href="presentations.html">
+        <span class="fa fa-exchange"></span>
+         
+        Presentations
+      </a>
+    </li>
+    <li>
+      <a href="unpublished.html">
+        <span class="fa fa-hourglass-half"></span>
+         
+        Unpublished/In Progress
+      </a>
+    </li>
+    <li>
+      <a href="resume.html">
+        <span class="fa fa-file-pdf-o"></span>
+         
+        Resume/CV
+      </a>
+    </li>
+  </ul>
 </li>
-<li>
-  <a href="https://bengochanour.wixsite.com/midnightmusings">
-    <span class="fa fa-rss"></span>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-bar-chart"></span>
      
-    Blog
+    Projects
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="project2.html">MATH 4773</a>
+    </li>
+  </ul>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -319,7 +358,7 @@ $(document).ready(function () {
   <a href="mailto:ben.gochanour@ou.edu">
     <span class="fa fa-envelope-o"></span>
      
-    Contact me
+    Email
   </a>
 </li>
 <li>
@@ -334,6 +373,13 @@ $(document).ready(function () {
     <span class="fa fa-linkedin"></span>
      
     LinkedIn
+  </a>
+</li>
+<li>
+  <a href="https://bengochanour.wixsite.com/midnightmusings">
+    <span class="fa fa-rss"></span>
+     
+    Blog
   </a>
 </li>
       </ul>

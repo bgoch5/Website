@@ -4,4 +4,4 @@ title: "Resume and CV"
 
 <a href="resume.pdf#" class="download" title="Download my Resume as a PDF">Download Resume</a>			
 
-Download Cv
+Download CV
