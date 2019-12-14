@@ -10,7 +10,7 @@ navbar:
     - text: "About"
       icon: fa-user 
       href: about.html
-    - text: "Resume"
+    - text: "Resume/CV"
       icon: fa-file-pdf-o
       href: resume.html
     - text: "Blog"
@@ -24,7 +24,7 @@ navbar:
       icon: fa-github
       href: https://github.com/bgoch5    
     - text: "LinkedIn"
-      icon: fa-linkedin-in
+      icon: fa-linkedin
       href: https://www.linkedin.com/in/benjamin-gochanour/
       
 output:

@@ -1,9 +1,7 @@
 ---
-title: "Resume"
+title: "Resume and CV"
 ---
 
 <a href="resume.pdf#" class="download" title="Download my Resume as a PDF">Download Resume</a>			
 
-## Header
-
-Say more about your CV here.
+Download Cv
