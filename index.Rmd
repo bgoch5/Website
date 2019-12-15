@@ -1,7 +1,9 @@
 ---
-title: "Biostatistics and Data Analytics"
+title: "Biostatistics, Analytics, and Machine Learning"
 ---
 
-Welcome to my website; I'm glad you're here. Please feel free to browse the projects tab for information about my past work, and feel free to contact me using any of the links above.
+Welcome to my website; I'm glad you're here. Please feel free to contact me via the links at the top right of this page to get in touch.
 
-![](hompic.jpg){width=90% height=90% align=center}
+<center>
+![](homepic2.jpeg){width=90% height=90%}
+</center>
