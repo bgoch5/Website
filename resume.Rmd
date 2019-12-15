@@ -1,7 +1,8 @@
 ---
-title: "Resume and CV"
+title: "Resume/CV"
 ---
 
-<a href="resume.pdf#" class="download" title="Download my Resume as a PDF">Download Resume</a>			
+<a href="resume.pdf#" class="download" title="Download my Resume as a PDF">Download Resume</a>		
+
 
 Download CV

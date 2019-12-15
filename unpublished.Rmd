@@ -1,3 +1,18 @@
 ---
-title: "Unpublished/Works in Progress"
+title: "Unpublished Work and Ongoing Projects"
 ---
+
+# **2019**
+
+*Modeling Migration in Warblers*
+
+Benjamin Gochanour, Andrea Contina
+
+<center>
+![Orange Crowned Warbler Species Distribution Modeling](ocwa.gif){width=30% height=30%}
+</center>
+<br>
+
+*A Multiply Robust Multiple Imputation Method for Causal Inference*
+
+Benjamin Gochanour, Sixia Chen, David Haziza

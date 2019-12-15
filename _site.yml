@@ -37,7 +37,7 @@ navbar:
       icon: fa-bar-chart
       href: projects.html
       menu:
-        - text: "MATH 4773"
+        - text: "Multiple Linear Regression"
           href: project2.html
 
   right:
