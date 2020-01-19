@@ -2,7 +2,7 @@
 title: "Biostatistics, Analytics, and Machine Learning"
 ---
 
-Welcome to my website; I'm glad you're here. Please feel free to contact me via the links at the top right of this page.
+Welcome to my website; I'm glad you're here. Please feel free to contact me via the links at the top right of this page if you'd like to get in touch.
 
 <center>
 ![](homepic2.jpeg){width=90% height=90%}
