@@ -29,16 +29,18 @@ navbar:
           icon: fa-hourglass-half
           href: unpublished.html
         
-        - text: "Resume/CV"
+        - text: "Resume"
           icon: fa-file-pdf-o
           href: resume.html
           
     - text: "Other Projects"
       icon: fa-bar-chart
-      href: projects.html
       menu:
         - text: "Multiple Linear Regression"
           href: project2.html
+        - text: "GroupMe Analysis"
+          href: Anonymized_Writeup.html
+        
 
   right:
     - text: "Email"
