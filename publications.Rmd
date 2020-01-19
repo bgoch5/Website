@@ -13,6 +13,6 @@ Benjamin Gochanour, Jose L. Alcantara, Paula Cimprich, Jeffrey F. Kelly, Andrea 
 Abstract: We implemented stable isotope analysis to evaluate the molt of the Colima Warbler (Leiothlypis crissalis), an understudied migratory songbird occurring in Mexico and recently discovered breeding in the southern part of Texas, USA. We built a geostatistical model showing variation in deuterium precipitation values (δ²Hp) across a latitudinal gradient within the Colima Warbler breeding range in northeastern Mexico . Then, based on stable isotope ratios of deuterium in feathers (δ²Hf), we assigned wintering Colima Warblers captured in Central Mexico to possible molting areas near the southwestern portion of the recognized species breeding range. To the best of our knowledge, we provide the first records of the species occurring within the Parque Ecológico de la Ciudad de México, near the mountain ranges surrounding the Basin of Mexico. Overall, our study demonstrates the potential  of winter ecology field work in conjunction with molecular study techniques, such as stable isotope analysis,  for revealing the migratory and molting behavior of warblers with restricted distribution ranges. 
 
 <center>
-![Figure from Paper](homepic2.jpeg){width=50% height=50%}
+![Figure from Paper](homepic2.jpeg){width=70% height=70%}
 </center>
 <br>

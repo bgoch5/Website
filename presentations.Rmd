@@ -11,7 +11,7 @@ RUME Presentation, University of Oklahoma. April 29, 2019.
 <a href="hon_thesis.pdf#" class="download">Download Full Honors Thesis</a>	
 
 <center>
-![Excerpt from Slides](hon_pic.JPG){width=37% height=37%}
+![Excerpt from Slides](hon_pic.JPG){width=45% height=45%}
 </center>
 <br>
 
@@ -23,6 +23,6 @@ FYRE Presentation, University Of Oklahoma. May 2018.
 <a href="fyre.pdf#" class="download"> Download Poster PDF</a>
 
 <center>
-![First Year Research Experience Poster](fyre_pic.JPG){width=37% height=37%}
+![First Year Research Experience Poster](fyre_pic.JPG){width=45% height=45%}
 </center>
 <br>
