@@ -25,7 +25,7 @@ navbar:
           icon: fa-exchange
           href: presentations.html
         
-        - text: "Unpublished/In Progress"
+        - text: "In Progress"
           icon: fa-hourglass-half
           href: unpublished.html
         
