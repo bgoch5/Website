@@ -56,9 +56,6 @@ navbar:
     - text: "LinkedIn"
       icon: fa-linkedin
       href: https://www.linkedin.com/in/benjamin-gochanour/
-    - text: "Blog"
-      icon: fa-rss
-      href: https://bengochanour.wixsite.com/midnightmusings 
       
 output:
   html_document:
