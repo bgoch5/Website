@@ -32,6 +32,10 @@ navbar:
         - text: "Resume"
           icon: fa-file-pdf-o
           href: resume.pdf
+        
+        - text: "CV"
+          icon: fa-file-pdf-o
+          href: CV.pdf
           
     - text: "Other Projects"
       icon: fa-bar-chart

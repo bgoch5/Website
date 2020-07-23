@@ -1,5 +1,6 @@
 ---
 title: "Publications"
+output: pdf_document
 ---
 
 # **2020**
@@ -16,3 +17,24 @@ Abstract: We implemented stable isotope analysis to evaluate the molt of the Col
 ![Figure from Paper](homepic2.jpeg){width=70% height=70%}
 </center>
 <br>
+
+**Biometrics (Submission in Progress)**
+
+*A Nonparametric Multiply Robust Multiple Imputation Method for Causal Inference*
+
+Benjamin Gochanour, Sixia Chen, Laura Beebe, David Haziza
+
+Abstract: Evaluating the impact of non-randomized treatment on various health outcomes is
+difficult in observational studies because of the presence of covariates that may affect
+both the treatment or exposure received and the outcome of interest. In the present
+study, we develop a nonparametric multiply robust multiple imputation method for
+estimating average treatment effects in such studies, approaching the challenge from
+the perspective of potential outcomes. Our method relies on multiple propensity score
+models and outcome regression models and is multiply robust in that it performs well if
+at least one of the models is correctly specified. We develop the asymptotic properties
+of our method and test it in a simulation study, evaluating its performance in terms of
+bias, efficiency, and coverage probability. Rubin’s variance estimation formula can be
+used safely for estimating the variance of our proposed estimators. Finally, we apply
+our method to NHANES data to examine the effect of exposure to perfluoroalkyl acids
+(PFAs) on kidney function.
+
