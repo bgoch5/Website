@@ -1,8 +1,9 @@
-name: "Ben Gochanour"                               
+name: "Ben Gochanour"
+title: "Ben Gochanour"
 output_dir: "."
 navbar:
-  title: "Ben Gochanour"                            
   type: inverse
+  title: "<img id=\"logo\" style=\"width: 70px; height: 30px; \" src=\"my_logo.jpg\" />"
   left:
     - text: "Home"
       icon: fa-home
@@ -56,7 +57,10 @@ navbar:
     - text: "LinkedIn"
       icon: fa-linkedin
       href: https://www.linkedin.com/in/benjamin-gochanour/
-      
+
 output:
   html_document:
+    includes:
+        after_body: footer.html
     highlight: textmate
+    
