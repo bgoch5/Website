@@ -61,6 +61,7 @@ navbar:
 output:
   html_document:
     includes:
+        before_body: header.html
         after_body: footer.html
     highlight: textmate
     
