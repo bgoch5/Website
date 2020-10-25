@@ -2,13 +2,41 @@
 title: "In Progress"
 ---
 
-# **2020**
+&nbsp;
 
-*Modeling Migration in Warblers*
+## I. Methodological Research
 
-Benjamin Gochanour, Andrea Contina
+&nbsp;
 
-<center>
-![Orange Crowned Warbler Species Distribution Modeling](ocwa.gif){width=35% height=35%}
-</center>
-<br>
+**Bayesian Multiply Robust Estimation for Causal Inference.**
+
+B. Gochanour, S. Chen, L. Beebe, and D. Haziza
+
+&nbsp;
+
+## II. Collaborative Research
+
+&nbsp;
+
+#### a) COVID-19
+
+**Post-acute Care Utilization Pattern During the COVID-19 Pandemic**
+
+N. Ferdows, A. Kumar, S. Chen, M. Rivera-Hernandez, A. Karmarkar, and B. Gochanour
+
+**Assessment of Racial Disparities in COVID-19-related Mortality Among Individuals Living in US Rural vs Urban Counties**
+
+N. Ferdows, A. Kumar, S. Chen, M. Rivera-Hernandez, and B. Gochanour.
+
+&nbsp;
+
+#### b) Migration Modeling
+
+**abmR: An R Package for Agent-based Model Analysis of Large-scale Movements Across Taxa**
+
+B. Gochanour, J. Fernández-López J, and A. Contina
+For an in-development version of the R package, please see [here](https://github.com/bgoch5/move-model/tree/master/abmr).
+
+
+
+
