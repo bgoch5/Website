@@ -1,0 +1,143 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Publications},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Publications}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{}
+    \preauthor{}\postauthor{}
+    \date{}
+    \predate{}\postdate{}
+  
+
+\begin{document}
+\maketitle
+
+\hypertarget{section}{%
+\section{\texorpdfstring{\textbf{2020}}{2020}}\label{section}}
+
+\textbf{Southwestern Naturalist (Under Review)}
+
+\emph{Filling the gap: molting behavior of Colima Warblers and research
+opportunities for understudied North American songbirds}
+
+Benjamin Gochanour, Jose L. Alcantara, Paula Cimprich, Jeffrey F. Kelly,
+Andrea Contina
+
+Abstract: We implemented stable isotope analysis to evaluate the molt of
+the Colima Warbler (Leiothlypis crissalis), an understudied migratory
+songbird occurring in Mexico and recently discovered breeding in the
+southern part of Texas, USA. We built a geostatistical model showing
+variation in deuterium precipitation values (δ²Hp) across a latitudinal
+gradient within the Colima Warbler breeding range in northeastern Mexico
+. Then, based on stable isotope ratios of deuterium in feathers (δ²Hf),
+we assigned wintering Colima Warblers captured in Central Mexico to
+possible molting areas near the southwestern portion of the recognized
+species breeding range. To the best of our knowledge, we provide the
+first records of the species occurring within the Parque Ecológico de la
+Ciudad de México, near the mountain ranges surrounding the Basin of
+Mexico. Overall, our study demonstrates the potential of winter ecology
+field work in conjunction with molecular study techniques, such as
+stable isotope analysis, for revealing the migratory and molting
+behavior of warblers with restricted distribution ranges.
+
+\includegraphics[width=0.7\textwidth,height=0.7\textheight]{./tex2pdf.-3de7d20a9a981e0d/46289c16149e31041f15260911580074b7d8f25d.jpg}
+
+\textbf{Biometrics (Submission in Progress)}
+
+\emph{A Nonparametric Multiply Robust Multiple Imputation Method for
+Causal Inference}
+
+Benjamin Gochanour, Sixia Chen, Laura Beebe, David Haziza
+
+Abstract: Evaluating the impact of non-randomized treatment on various
+health outcomes is difficult in observational studies because of the
+presence of covariates that may affect both the treatment or exposure
+received and the outcome of interest. In the present study, we develop a
+nonparametric multiply robust multiple imputation method for estimating
+average treatment effects in such studies, approaching the challenge
+from the perspective of potential outcomes. Our method relies on
+multiple propensity score models and outcome regression models and is
+multiply robust in that it performs well if at least one of the models
+is correctly specified. We develop the asymptotic properties of our
+method and test it in a simulation study, evaluating its performance in
+terms of bias, efficiency, and coverage probability. Rubin's variance
+estimation formula can be used safely for estimating the variance of our
+proposed estimators. Finally, we apply our method to NHANES data to
+examine the effect of exposure to perfluoroalkyl acids (PFAs) on kidney
+function.
+
+
+\end{document}

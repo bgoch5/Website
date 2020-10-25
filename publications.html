@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -86,7 +86,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -235,6 +234,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -246,18 +246,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -401,19 +389,19 @@ $(document).ready(function () {
 
 
 <div id="section" class="section level1">
-<h1><strong>2020</strong></h1>
-<p><strong>Southwestern Naturalist (Under Review)</strong></p>
+<h1><strong>2020+</strong></h1>
+<p><strong>Southwestern Naturalist (Accepted)</strong></p>
 <p><em>Filling the gap: molting behavior of Colima Warblers and research opportunities for understudied North American songbirds</em></p>
 <p>Benjamin Gochanour, Jose L. Alcantara, Paula Cimprich, Jeffrey F. Kelly, Andrea Contina</p>
 <p>Abstract: We implemented stable isotope analysis to evaluate the molt of the Colima Warbler (Leiothlypis crissalis), an understudied migratory songbird occurring in Mexico and recently discovered breeding in the southern part of Texas, USA. We built a geostatistical model showing variation in deuterium precipitation values (<span class="math inline">\(\delta^{2}H_p\)</span>) across a latitudinal gradient within the Colima Warbler breeding range in northeastern Mexico . Then, based on stable isotope ratios of deuterium in feathers (<span class="math inline">\(\delta^{2}H_f\)</span>), we assigned wintering Colima Warblers captured in Central Mexico to possible molting areas near the southwestern portion of the recognized species breeding range. To the best of our knowledge, we provide the first records of the species occurring within the Parque Ecológico de la Ciudad de México, near the mountain ranges surrounding the Basin of Mexico. Overall, our study demonstrates the potential of winter ecology field work in conjunction with molecular study techniques, such as stable isotope analysis, for revealing the migratory and molting behavior of warblers with restricted distribution ranges.</p>
 <center>
-<img src="homepic2.jpeg" alt="Figure from Paper" style="width:70.0%;height:70.0%" />
+<img src="homepic2.jpeg" title="fig:" style="width:70.0%;height:70.0%" alt="Figure from Paper" />
 </center>
 <p><br></p>
-<p><strong>Biometrics (Under Review)</strong></p>
+<p><strong>Statistics in Medicine (Under Review)</strong></p>
 <p><em>A Nonparametric Multiply Robust Multiple Imputation Method for Causal Inference</em></p>
 <p>Benjamin Gochanour, Sixia Chen, Laura Beebe, David Haziza</p>
-<p>Abstract: Evaluating the impact of non-randomized treatment on various health outcomes is difficult in observational studies because of the presence of covariates that may affect both the treatment or exposure received and the outcome of interest. In the present study, we develop a nonparametric multiply robust multiple imputation method for estimating average treatment effects in such studies, approaching the challenge from the perspective of potential outcomes. Our method relies on multiple propensity score models and outcome regression models and is multiply robust in that it performs well if at least one of the models is correctly specified. We develop the asymptotic properties of our method and test it in a simulation study, evaluating its performance in terms of bias, efficiency, and coverage probability. Rubin’s variance estimation formula can be used safely for estimating the variance of our proposed estimators. Finally, we apply our method to NHANES data to examine the effect of exposure to perfluoroalkyl acids (PFAs) on kidney function.</p>
+<p>Abstract: Evaluating the impact of non-randomized treatment on various health outcomes is difficult in observational studies because of the presence of covariates that may affect both the treatment or exposure received and the outcome of interest. In the present study, we develop a nonparametric multiply robust multiple imputation method for estimating average treatment effects in such studies, approaching the challenge from the perspective of potential outcomes. Our method relies on multiple propensity score models and outcome regression models, and is multiply robust in that it performs well if at least one of the models is correctly specified. We develop the asymptotic properties of our method and test it in a simulation study, evaluating its performance with regard to efficiency, bias, and coverage probability. Rubin’s variance estimation formula can be used safely for estimating the variance of our proposed estimators. Finally, we apply our method to NHANES data to examine the effect of exposure to perfluoroalkyl acids (PFAs) on kidney function.</p>
 </div>
 
 &nbsp;
@@ -445,6 +433,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

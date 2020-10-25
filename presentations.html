@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -86,7 +86,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -235,6 +234,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -246,18 +246,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -415,7 +403,7 @@ $(document).ready(function () {
 <h1><strong>2019</strong></h1>
 <p><strong>B. Gochanour</strong>*. 2019. Investigating Math Motivation and Math Anxiety in Undergraduate Students. University of Oklahoma, Research in Undergraduate Math Education Seminar. Norman, Oklahoma. <br> <a href="hon_presentation.pdf#" class="download">Download Slides</a> or <a href="hon_thesis.pdf#" class="download">Download Full Honors Thesis</a></p>
 <center>
-<img src="hon_pic.JPG" alt="Excerpt from Slides" style="width:45.0%;height:45.0%" />
+<img src="hon_pic.JPG" title="fig:" style="width:45.0%;height:45.0%" alt="Excerpt from Slides" />
 </center>
 <p><br></p>
 </div>
@@ -423,7 +411,7 @@ $(document).ready(function () {
 <h1><strong>2018</strong></h1>
 <p><strong>B. Gochanour</strong>*, L. Wiseman, A.M. Nguyen, P. Cimprich, M. Pandit, A. Contina, J.F. Kelly. 2018. The Effect of Handling Time on Boldness in Dark-eyed Juncos. First Year Research Experience Presentation Session. Norman, Oklahoma. <br> <a href="fyre.pdf#" class="download"> Download Poster PDF</a></p>
 <center>
-<img src="fyre_pic.JPG" alt="First Year Research Experience Poster" style="width:45.0%;height:45.0%" />
+<img src="fyre_pic.JPG" title="fig:" style="width:45.0%;height:45.0%" alt="First Year Research Experience Poster" />
 </center>
 <p><br></p>
 </div>
@@ -457,6 +445,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

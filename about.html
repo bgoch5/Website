@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -86,7 +86,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -235,6 +234,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -246,18 +246,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -401,7 +389,10 @@ $(document).ready(function () {
 
 
 <center>
-<img src="Ben_Headshot.jpeg" alt="Ben Gochanour" style="width:30.0%;height:30.0%" />
+<img src="Ben_Headshot.jpeg" title="fig:" style="width:30.0%;height:30.0%" alt="Benjamin Gochanour" />
+</center>
+<center>
+<strong>Benjamin Gochanour</strong>
 </center>
 <p><br> BS Mathematics/MS Biostatistics student at the University of Oklahoma/University of Oklahoma Health Sciences Center, with plans to graduate with both degrees in Spring 2021. My research experience thus far spans health data science, mental health, math education, ornithology, and causal inference methodology. I am especially interested in using R, Python, and other open-source statistical software packages and programming languages to create insights from large and disparate data sources. I currently serve as a Graduate Research Assistant at OU’s Hudson College of Public Health and will serve as Vice President of the Biostatistics and Epidemiology Student Association for the 2020-2021 school year.</p>
 
@@ -434,6 +425,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

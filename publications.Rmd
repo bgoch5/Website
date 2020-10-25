@@ -3,22 +3,22 @@ title: "Publications"
 output: pdf_document
 ---
 
-# **2020**
+# **2020+**
 
-**Southwestern Naturalist (Under Review)**
+**Southwestern Naturalist (Accepted)**
 
 *Filling the gap: molting behavior of Colima Warblers and research opportunities for understudied North American songbirds*
 
 Benjamin Gochanour, Jose L. Alcantara, Paula Cimprich, Jeffrey F. Kelly, Andrea Contina
 
-Abstract: We implemented stable isotope analysis to evaluate the molt of the Colima Warbler (Leiothlypis crissalis), an understudied migratory songbird occurring in Mexico and recently discovered breeding in the southern part of Texas, USA. We built a geostatistical model showing variation in deuterium precipitation values (δ²Hp) across a latitudinal gradient within the Colima Warbler breeding range in northeastern Mexico . Then, based on stable isotope ratios of deuterium in feathers (δ²Hf), we assigned wintering Colima Warblers captured in Central Mexico to possible molting areas near the southwestern portion of the recognized species breeding range. To the best of our knowledge, we provide the first records of the species occurring within the Parque Ecológico de la Ciudad de México, near the mountain ranges surrounding the Basin of Mexico. Overall, our study demonstrates the potential  of winter ecology field work in conjunction with molecular study techniques, such as stable isotope analysis,  for revealing the migratory and molting behavior of warblers with restricted distribution ranges. 
+Abstract: We implemented stable isotope analysis to evaluate the molt of the Colima Warbler (Leiothlypis crissalis), an understudied migratory songbird occurring in Mexico and recently discovered breeding in the southern part of Texas, USA. We built a geostatistical model showing variation in deuterium precipitation values ($\delta^{2}H_p$) across a latitudinal gradient within the Colima Warbler breeding range in northeastern Mexico . Then, based on stable isotope ratios of deuterium in feathers ($\delta^{2}H_f$), we assigned wintering Colima Warblers captured in Central Mexico to possible molting areas near the southwestern portion of the recognized species breeding range. To the best of our knowledge, we provide the first records of the species occurring within the Parque Ecológico de la Ciudad de México, near the mountain ranges surrounding the Basin of Mexico. Overall, our study demonstrates the potential  of winter ecology field work in conjunction with molecular study techniques, such as stable isotope analysis,  for revealing the migratory and molting behavior of warblers with restricted distribution ranges. 
 
 <center>
 ![Figure from Paper](homepic2.jpeg){width=70% height=70%}
 </center>
 <br>
 
-**Biometrics (Submission in Progress)**
+**Statistics in Medicine (Under Review)**
 
 *A Nonparametric Multiply Robust Multiple Imputation Method for Causal Inference*
 
@@ -30,11 +30,11 @@ both the treatment or exposure received and the outcome of interest. In the pres
 study, we develop a nonparametric multiply robust multiple imputation method for
 estimating average treatment effects in such studies, approaching the challenge from
 the perspective of potential outcomes. Our method relies on multiple propensity score
-models and outcome regression models and is multiply robust in that it performs well if
-at least one of the models is correctly specified. We develop the asymptotic properties
-of our method and test it in a simulation study, evaluating its performance in terms of
-bias, efficiency, and coverage probability. Rubin’s variance estimation formula can be
-used safely for estimating the variance of our proposed estimators. Finally, we apply
-our method to NHANES data to examine the effect of exposure to perfluoroalkyl acids
-(PFAs) on kidney function.
+models and outcome regression models, and is multiply robust in that it performs
+well if at least one of the models is correctly specified. We develop the asymptotic
+properties of our method and test it in a simulation study, evaluating its performance
+with regard to efficiency, bias, and coverage probability. Rubin’s variance estimation
+formula can be used safely for estimating the variance of our proposed estimators.
+Finally, we apply our method to NHANES data to examine the effect of exposure to
+perfluoroalkyl acids (PFAs) on kidney function.
 
