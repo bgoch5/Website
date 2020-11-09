@@ -64,6 +64,5 @@ output:
   html_document:
     includes:
         in_header: header.html
-        after_body: footer.html
     highlight: textmate
     
