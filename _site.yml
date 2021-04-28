@@ -46,7 +46,7 @@ navbar:
         - text: "GroupMe Analysis"
           href: Anonymized_Writeup.html
         - text: "abmR"
-          href: VignetteUpdates.html
+          href: abmr.html
         
 
   right:
