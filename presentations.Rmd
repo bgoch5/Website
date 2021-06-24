@@ -5,7 +5,13 @@ output: pdf_document
 
 Presenting author(s) are indicated with an asterisk (*).
 
+# **2021**
+
+**B. Gochanour**\*, S. Chen., L. Beebe. and D. Haziza. 2021. Bayesian Multiply Robust Estimation for Casual Inference. Joint Statistical Meetings (Contributed Poster Session). Virtual Conference.
+
 # **2020**
+
+**B. Gochanour**\*. 2020. A Review of Olson et.al “Transitions from Telephone Surveys to Self-Administered and Mixed-Mode Surveys.” University of Oklahoma Health Sciences Center Survey Working Group. Oklahoma City, Oklahoma.
 
 **B. Gochanour**\*, S. Chen., L. Beebe. and D. Haziza. 2020. A Nonparametric Multiply Robust Multiple Imputation Method for Causal Inference. Joint Statistical Meetings (Contributed Poster Session). Virtual Conference.
 

@@ -3,13 +3,9 @@ title: "Publications"
 output: pdf_document
 ---
 
-# **2020+**
+## **Accepted**
 
-**Southwestern Naturalist (Accepted)**
-
-*Filling the gap: molting behavior of Colima Warblers and research opportunities for understudied North American songbirds*
-
-Benjamin Gochanour, Jose L. Alcantara, Paula Cimprich, Jeffrey F. Kelly, Andrea Contina
+**B. Gochanour**, J. Alcantara, P. Cimprich, J. F. Kelly, and A. Contina. 2021+. Filling the Gap: Molting Behavior of Colima Warblers and Research Opportunities for Understudied North American Songbirds. Accepted by *The Southwestern Naturalist*.
 
 Abstract: We implemented stable isotope analysis to evaluate the molt of the Colima Warbler (Leiothlypis crissalis), an understudied migratory songbird occurring in Mexico and recently discovered breeding in the southern part of Texas, USA. We built a geostatistical model showing variation in deuterium precipitation values ($\delta^{2}H_p$) across a latitudinal gradient within the Colima Warbler breeding range in northeastern Mexico . Then, based on stable isotope ratios of deuterium in feathers ($\delta^{2}H_f$), we assigned wintering Colima Warblers captured in Central Mexico to possible molting areas near the southwestern portion of the recognized species breeding range. To the best of our knowledge, we provide the first records of the species occurring within the Parque Ecológico de la Ciudad de México, near the mountain ranges surrounding the Basin of Mexico. Overall, our study demonstrates the potential  of winter ecology field work in conjunction with molecular study techniques, such as stable isotope analysis,  for revealing the migratory and molting behavior of warblers with restricted distribution ranges. 
 
@@ -18,11 +14,9 @@ Abstract: We implemented stable isotope analysis to evaluate the molt of the Col
 </center>
 <br>
 
-**Statistics in Medicine (Under Review)**
+## **Submitted**
 
-*A Nonparametric Multiply Robust Multiple Imputation Method for Causal Inference*
-
-Benjamin Gochanour, Sixia Chen, Laura Beebe, David Haziza
+**B. Gochanour**, S. Chen, L. Beebe, and D. Haziza. 2021+. A Nonparametric Multiply Robust Multiple Imputation Method for Causal Inference. Submitted to *Canadian Journal of Statistics*.
 
 Abstract: Evaluating the impact of non-randomized treatment on various health outcomes is
 difficult in observational studies because of the presence of covariates that may affect
@@ -37,4 +31,14 @@ with regard to efficiency, bias, and coverage probability. Rubin’s variance es
 formula can be used safely for estimating the variance of our proposed estimators.
 Finally, we apply our method to NHANES data to examine the effect of exposure to
 perfluoroalkyl acids (PFAs) on kidney function.
+
+## **In Preparation**
+
+**B. Gochanour**, S. Chen, L. Beebe. and D. Haziza. 2021+. Bayesian Multiply Robust Estimation for Causal Inference.
+
+**B. Gochanour**, J. Fernández-López J, and A. Contina. 2021+. abmR: An R Package for Agent-based Model Analysis of Large-scale Movements Across Taxa.
+
+N. Ferdows, A. Kumar, S. Chen, M. Rivera-Hernandez, A. Karmarkar, and **B. Gochanour**. 2021+. Post-acute Care Utilization Pattern During the COVID-19 Pandemic.
+
+N. Ferdows, A. Kumar, S. Chen, M. Rivera-Hernandez, and **B. Gochanour**. 2021+. Assessment of Racial Disparities in COVID-19-related Mortality Among Individuals Living in US Rural vs Urban Counties
 
